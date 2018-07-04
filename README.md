@@ -12,13 +12,11 @@ BSA_plot
 > install.packages("gridExtra")
 > library("ggplot2")
 > library("gridExtra")
-#(optional)if you want to use the latest version:
-#source("https://raw.githubusercontent.com/YinLiLin/R-CMplot/master/R/CMplot.r")
 ```
 
 ---
 
-The format of input data(BSA_*.txt) is as follows:
+The format of input datas(BSA_*.txt) are as follows:
 
 ```r
 
@@ -41,8 +39,4 @@ BSA_*99\95.txt are 99% or 95% threshholds data.
 ---
 ### BSA plot
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/YinLiLin/R-CMplot/master/Figure/illumilla_60K.jpg">
-<img src="Figure/illumilla_60K.jpg" height="460px" width="680px">
-</a>
-</p>
+![image](https://github.com/WMBio/BSA_plot/Figure/Figure1.png)
