@@ -1,7 +1,7 @@
 BSA_plot
 =========
 
-## A high-quality drawing tool designed to show BSA result
+## A high-quality drawing program to show BSA result
 
 ### Installation
 
@@ -32,7 +32,7 @@ POS	VALUE	CHROM
 ```
 
 As the example datasets, the first column is position(Mb) of SNP, the second column is the value of BSA_index, the third column is the CHROM.  
-And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.BSA_AL\BL\DL.txt are Sliding window results of SNP-index.BSA_*99\95.txt are 99% or 95% threshholds data.
+And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.  BSA_AL\BL\DL.txt are Sliding window results of SNP-index.  BSA_*99\95.txt are 99% or 95% threshholds data.
 
 ---
 ### BSA plot
