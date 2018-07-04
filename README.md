@@ -39,4 +39,4 @@ BSA_*99\95.txt are 99% or 95% threshholds data.
 ---
 ### BSA plot
 
-![image](https://github.com/WMBio/BSA_plot/Figure/Figure1.png)
+![image](https://github.com/WMBio/BSA_plot/tree/master/Figure/Figure1.png)
