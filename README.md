@@ -44,7 +44,7 @@ As the example datasets, the first column is position(Mb) of SNP, the second col
 </p>
 
 
-
+----
 
 **BSA_plot2**   is a Circos project which required perl:
 
@@ -76,6 +76,6 @@ As the example datasets, the first column is the CHROM, the second and third col
 
 <p align="center">
 <a href="https://github.com/WMBio/BSA_plot/tree/master/Figure/Figure2.png">
-<img src="Figure/Figure2.png" height="500px" width="500px">
+<img src="Figure/Figure2.png" height="600px" width="600px">
 </a>
 </p>
