@@ -1,0 +1,7 @@
+chr	-	Chr1	1	0	29149675	chr1
+chr	-	Chr2	2	0	23174626	chr14
+chr	-	Chr3	3	0	39782674	chr3
+chr	-	Chr4	4	0	23425844	chr4
+chr	-	Chr5	5	0	28023477	dgreen
+chr	-	Chr6	6	0	29076228	chr6
+chr	-	Chr7	7	0	19226500	chr10
