@@ -1,16 +1,16 @@
 library(ggplot2)
 library(gridExtra)
 
-mydataAP<-read.table("BSA_AP.txt",header=T,sep="\t")
-mydataAL<-read.table("BSA_AL.txt",header=T,sep="\t")
-mydataBL<-read.table("BSA_BL.txt",header=T,sep="\t")
-mydataBP<-read.table("BSA_BP.txt",header=T,sep="\t")
-mydataDP<-read.table("BSA_DP.txt",header=T,sep="\t")
-mydataDL<-read.table("BSA_DL.txt",header=T,sep="\t")
-mydataDF95<-read.table("BSA_DF95.txt",header=T,sep="\t")
-mydataDZ95<-read.table("BSA_DZ95.txt",header=T,sep="\t")
-mydataDZ99<-read.table("BSA_DZ99.txt",header=T,sep="\t")
-mydataDF99<-read.table("BSA_DF99.txt",header=T,sep="\t")
+mydataAP<-read.table("../Example/data1/BSA_AP.txt",header=T,sep="\t")
+mydataAL<-read.table("../Example/data1/BSA_AL.txt",header=T,sep="\t")
+mydataBL<-read.table("../Example/data1/BSA_BL.txt",header=T,sep="\t")
+mydataBP<-read.table("../Example/data1/BSA_BP.txt",header=T,sep="\t")
+mydataDP<-read.table("../Example/data1/BSA_DP.txt",header=T,sep="\t")
+mydataDL<-read.table("../Example/data1/BSA_DL.txt",header=T,sep="\t")
+mydataDF95<-read.table("../Example/data1/BSA_DF95.txt",header=T,sep="\t")
+mydataDZ95<-read.table("../Example/data1/BSA_DZ95.txt",header=T,sep="\t")
+mydataDZ99<-read.table("../Example/data1/BSA_DZ99.txt",header=T,sep="\t")
+mydataDF99<-read.table("../Example/data1/BSA_DF99.txt",header=T,sep="\t")
 
 
 p1<-ggplot() +
