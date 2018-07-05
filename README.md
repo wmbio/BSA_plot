@@ -4,7 +4,7 @@ BSA_plot
 ## A high-quality drawing program to show BSA result
 
 
-**BSA_plot1** is a R project which required ggplot2 and gridExtra:
+**BSA_plot1**   is a R project which required ggplot2 and gridExtra:
 
 ```r
 > install.packages("ggplot2")
@@ -30,13 +30,23 @@ POS	VALUE	CHROM
 
 ```
 
-As the example datasets, the first column is position(Mb) of SNP, the second column is the value of BSA_index, the third column is the CHROM.  
-And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.  BSA_AL\BL\DL.txt are Sliding window results of SNP-index.  BSA_*99\95.txt are 99% or 95% threshholds data.
+As the example datasets, the first column is position(Mb) of SNP, the second column is the value of BSA_index, the third column is the CHROM.  And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.  BSA_AL\BL\DL.txt are Sliding window results of SNP-index.  BSA_*99\95.txt are 99% or 95% threshholds data.
 
 
 ---
 
-**BSA_plot2** is a Circos project which required perl:
+### BSA plot1
+
+<p align="center">
+<a href="https://github.com/WMBio/BSA_plot/tree/master/Figure/Figure1.png">
+<img src="Figure/Figure1.png" height="410px" width="750px">
+</a>
+</p>
+
+
+
+
+**BSA_plot2**   is a Circos project which required perl:
 
 ```r
 perl circos -conf circos.conf
@@ -58,24 +68,14 @@ Chr1	300000	349999	0.4722
 
 ```
 
-As the example datasets, the first column is the CHROM, the second and third column is the Sliding window, the forth column is the value of BSA_index.  
-And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.  BSA_AL\BL\DL.txt are Sliding window results of SNP-index.  BSA_*99\95.txt are 99% or 95% threshholds data.
+As the example datasets, the first column is the CHROM, the second and third column is the Sliding window, the forth column is the value of BSA_index.  And BSA_AP\BP.txt represents the SNP-index of Mutant\WT pool, while BSA_DP.txt represents the Delta-SNPindex.  BSA_AL\BL\DL.txt are Sliding window results of SNP-index.  BSA_*99\95.txt are 99% or 95% threshholds data.
 
-
----
-### BSA plot1
-
-<p align="center">
-<a href="https://github.com/WMBio/BSA_plot/tree/master/Figure/Figure1.png">
-<img src="Figure/Figure1.png" height="410px" width="750px">
-</a>
-</p>
 
 ---
 ### BSA plot2
 
 <p align="center">
 <a href="https://github.com/WMBio/BSA_plot/tree/master/Figure/Figure2.png">
-<img src="Figure/Figure2.png" height="410px" width="750px">
+<img src="Figure/Figure2.png" height="500px" width="500px">
 </a>
 </p>
